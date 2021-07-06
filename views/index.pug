@@ -1,0 +1,90 @@
+doctype html
+html 
+  head
+    style 
+        include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div#logo
+                img(src="/static/woman-2819494_1920.jpg")
+                |   HDA
+
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+
+    section#introsection 
+        div#one Welcome to Huzaifa's Dance Academy
+        div#two Eat Sleep Dance Repeat 
+    section.mission
+        h2 Our Mission
+
+    section#missionSection
+        div.card1
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card2
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+        div.card3
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="")
+
+                div.card-content
+                    p This is the best dance academy of the universe 
+
+    section#sponsorsection 
+        h2 Section for Sponsor
+
+        div#sponsor
+            img(src="/static/icons-847262_1920.png", alt="Sponsor Image" Class="spimage")
+            img(src="/static/logo-google-1991840.png", alt="Sponsor Image" Class="spimage")
+            img(src="/static/logo-27046.png", alt="Sponsor Image" Class="spimage")
+            img(src="/static/apple-2962084.png", alt="Sponsor Image" Class="spimage")
+
+    footer 
+        footer.class="page-footer font-small special-color-dark pt-4"
+        div.class="container"
+            ul.class="list-unstyled list-inline text-center"
+                li.class="list-inline-item"
+                    a.class="btn-floating btn-fb mx-1"
+                        i.class="fab fa-facebook-f"
+             
+                li.class="list-inline-item"
+                    a.class="btn-floating btn-tw mx-1"
+                        i.class="fab fa-twitter"
+    
+                li.class="list-inline-item"
+                    a.class="btn-floating btn-gplus mx-1"   
+                        i.class="fab fa-google-plus-g"
+
+   
+                li.class="list-inline-item"
+                    a.class="btn-floating btn-li mx-1"
+                        i.class="fab fa-linkedin-in"
+    
+                li.class="list-inline-item"
+                    a.class="btn-floating btn-dribbble mx-1"
+                        i.class="fab fa-dribbble"
+            div.class="footer-copyright text-center py-3" 
+                |   © 2020 Copyright:HDA
+   
+
+
+    script 
+    include ../static/index.js 

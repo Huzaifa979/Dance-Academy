@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar {
+    padding: 15px 30px;
+    background-color: rgb(111 72 72);
+    height: 77px;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px -4px;
+    font-size: 1rem;
+    margin-right: 22px;
+}
+
+#navbar img {
+    height: 50px;
+    background-color: rgb(111 72 72);
+    border-radius: 100%;
+    filter: invert(1);
+    margin-right: 7px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 0px 28px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+#navbar a:hover {
+    color: rgb(15, 3, 3);
+}
+
+
+/* //#introsection  */
+
+#introsection {
+    /* background-color: beige; */
+    background: center/cover no-repeat url('/static/ballet-3174227_1920.jpg');
+    height: 480px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    flex-direction: column;
+}
+
+#introsection div {
+    font-family: 'Lacquer', cursive;
+    font-size: 2rem;
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    background-color: #d1dce7;
+}
+
+
+/* #missionsection */
+
+#missionSection {
+    height: 280px;
+    /* margin: 0px 80px; */
+    display: flex;
+    color: white;
+    background-color: #d1dce7;
+}
+
+.card1 {
+    width: 30%;
+    border: 2px solid black;
+    margin: 29px 15px;
+    height: 72%;
+    border-radius: 8px;
+    background: center/cover no-repeat url('/static/concert-2527495_1280.jpg');
+}
+
+.card2 {
+    width: 30%;
+    border: 2px solid black;
+    margin: 29px 15px;
+    height: 72%;
+    border-radius: 8px;
+    background: center/cover no-repeat url('/static/dancer-5576002_1920.jpg');
+}
+
+.card3 {
+    width: 30%;
+    border: 2px solid black;
+    margin: 29px 15px;
+    height: 72%;
+    border-radius: 8px;
+    background: center/cover no-repeat url('/static/hip-hop-2159913_1920.jpg');
+}
+
+.card1 h3,
+.card2 h3,
+.card3 h3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 7px 4px;
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+    text-align: center;
+}
+
+
+/* #sponsorsection
+ */
+
+#sponsorsection {
+    background-color: rgb(150, 114, 144);
+    height: 300px;
+    font-size: 1.5rem;
+    font-family: 'Cabin', sans-serif;
+}
+
+#sponsorsection h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+}
+
+#sponsor {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
+.spimage {
+    height: 232px;
+    padding: 36px;
+}
+
+footer {
+    background-color: black;
+    height: 55px;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

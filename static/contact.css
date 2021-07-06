@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+#contactsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 78vh;
+}
+
+h2 {
+    margin: 23px;
+    font-size: 1.9rem;
+    font-family: 'Jomhuria', cursive;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form #box {
+    padding: 9px;
+    margin: 13px;
+    border-radius: 7px;
+}
+
+.form input {
+    width: 313%;
+    padding: 3px;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-top: 9px;
+    font-size: 0.9rem;
+    background-color: rgb(111 72 72);
+    font-weight: bold;
+}
